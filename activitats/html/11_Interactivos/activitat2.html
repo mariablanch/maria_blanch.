@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>activitat2</title>
+</head>
+<body>
+    <label>Indique la marca del teléfono:
+        <input list="marcasTelefono" type="text" name="marca">
+    </label>
+
+    <label for="precios">Indique el rango de precio:</label>
+    <select name="precios" id="precios">
+        <option value="0">0-50€</option>
+        <option value="1">50-100€</option>
+        <option value="2">100-200€</option>
+        <option value="3">200-300€</option>
+        <option value="4">300-500€</option>
+        <option value="5">500-700€</option>
+        <option value="6">+700€</option>
+    </select>
+    
+    <datalist id="marcasTelefono">
+        <option value="iPhone"></option>
+        <option value="Samsung"></option>
+        <option value="Xiaomi"></option>
+        <option value="Oppo"></option>
+        <option value="Nokia"></option>
+    </datalist>
+</body>
+</html>
